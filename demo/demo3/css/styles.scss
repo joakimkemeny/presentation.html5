@@ -1,0 +1,88 @@
+@import "../../../css/libs/mixins";
+
+/*** Variables ************************************************************************************/
+
+$shadowColor: #666;
+
+/*** General styles *******************************************************************************/
+
+h1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); // demo1
+}
+
+#header {
+    @include box-shadow(0, 3px, 5px, $shadowColor); // demo1
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        @include border-radius(15px); // demo2
+                        @include transition-all(0.3s);
+
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); // demo1
+                    }
+                }
+            }
+        }
+    }
+}
+
+#content {
+    @include box-shadow(0, 3px, 5px, $shadowColor); // demo1
+}
+
+.box {
+    @include border-radius(3px); // demo2
+}
+
+/*** Speakers *************************************************************************************/
+
+.speaker {
+    img {
+        @include border-radius(3px); // demo2
+        @include box-shadow(2px, 2px, 5px, rgba(0, 0, 0, 0.4)); // demo1
+        @include transform-rotate(4deg);
+    }
+
+    &:nth-child(even) {
+        img {
+            @include transform-rotate(-4deg);
+        }
+    }
+}
+
+/*** Registration *********************************************************************************/
+
+.registered {
+    @include border-radius(3px); //demo2
+
+    table {
+        tr:nth-child(odd) {
+            td {
+                background-color: white;
+            }
+        }
+    }
+}
+
+/*** Forms ****************************************************************************************/
+
+button {
+    @include border-radius(4px); // demo2
+    @include gradient-vertical(white, darken(white, 15%)); // demo2
+
+    &:active {
+        $shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05); // demo1
+        -webkit-box-shadow: $shadow; // demo1
+        -moz-box-shadow: $shadow; // demo1
+        box-shadow: $shadow; // demo1
+    }
+}
+
+input {
+    @include border-radius(3px); // demo2
+    @include box-inset-shadow(1px, 1px, 0, rgba(0, 0, 0, .075)); // demo1
+    @include transition-all(0.2s);
+}

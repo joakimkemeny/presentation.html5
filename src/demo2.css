@@ -1,0 +1,6 @@
+button {
+  border-radius: 4px;
+
+  background-image: linear-gradient(top, #fff, #d9d9d9);
+  background-repeat: repeat-x
+}

@@ -1,0 +1,326 @@
+@import "libs/normalize";
+@import "libs/impress";
+@import "libs/mixins";
+@import "libs/theme";
+
+#intro {
+
+    h1 {
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    h2 {
+        margin-right: 30px;
+        margin-top: 10px;
+        text-align: right;
+    }
+    h3 {
+        margin-left: 450px;
+        margin-top: 120px;
+    }
+    h4 {
+        margin-left: 450px;
+        margin-top: 10px;
+    }
+    h5 {
+        margin-left: 450px;
+        margin-top: 30px;
+    }
+    img {
+        bottom: 50px;
+        left: 55px;
+        position: absolute;
+        width: 350px;
+    }
+    .logotype {
+        bottom: 150px;
+        left: 490px;
+        position: absolute;
+        width: 200px;
+    }
+}
+
+#start {
+
+    h1 {
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-top: 230px;
+    }
+}
+
+#why-2 {
+    .ballon-down {
+        left: 200px;
+        top: 100px;
+    }
+    .ballon-up {
+        right: 200px;
+        top: 450px;
+    }
+}
+
+#why-3 {
+    .ballon-up {
+        left: 220px;
+        top: 430px;
+    }
+}
+
+#why-5 {
+    h3 {
+        margin-top: 300px;
+        margin-left: 120px;
+    }
+}
+
+#how-2 {
+    & > div {
+        @include border-radius(10px);
+        @include clearfix;
+
+        background-color: $boxColor;
+        border: 5px solid $boxBorderColor;;
+        width: 918px;
+
+        img {
+            @include transition-all(0.3s);
+
+            border-right: 5px solid $boxBorderColor;
+            border-bottom: 5px solid $boxBorderColor;
+            float: left;
+            height: 227px;
+            padding: 40px;
+            width: 227px;
+
+            &:last-child {
+                border-right: 0;
+            }
+
+            &.active {
+                @include border-radius(10px);
+                @include transform-scale(1.5);
+
+                background-color: $boxColor;
+                border: 5px solid $boxBorderColor;
+            }
+        }
+        & > *:last-child {
+            img {
+                border-bottom: 0;
+                &.active {
+                    border: 5px solid $boxBorderColor;
+                }
+            }
+        }
+    }
+
+    #html5-graphics.active {
+        -webkit-transform: scale(1.5) translate(40px, 20px);
+        -moz-transform: scale(1.5) translate(40px, 20px);
+        -o-transform: scale(1.5) translate(40px, 20px);
+        transform: scale(1.5) translate(40px, 20px);
+    }
+
+    #html5-offline.active {
+        -webkit-transform: scale(1.5) translate(-50px, 60px);
+        -moz-transform: scale(1.5) translate(-50px, 60px);
+        -o-transform: scale(1.5) translate(-50px, 60px);
+        transform: scale(1.5) translate(-50px, 60px);
+    }
+
+    #html5-connectivity.active {
+        -webkit-transform: scale(1.5) translate(40px, 20px);
+        -moz-transform: scale(1.5) translate(40px, 20px);
+        -o-transform: scale(1.5) translate(40px, 20px);
+        transform: scale(1.5) translate(40px, 20px);
+    }
+}
+
+#css-3 {
+    .demo-label {
+        float: left;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .demo-box-safari {
+        @include border-radius(20px);
+        @include box-shadow(0px, 0px, 20px, rgba(0, 0, 0, 0.8));
+
+        background: #f5f5f5;
+        border: 6px solid #bbb;
+        float: left;
+        height: 100px;
+        margin-left: 30px;
+        margin-right: 60px;
+        margin-top: 30px;
+        width: 200px;
+    }
+
+    .demo-box-ie {
+        background: #f5f5f5;
+        border: 6px solid #bbb;
+        float: left;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 200px;
+    }
+}
+
+#css-5 {
+    code {
+        font-size: 22px;
+    }
+}
+
+#demo-6a {
+    pre {
+        @include border-radius-bottom(0);
+
+        border-bottom: 0;
+    }
+}
+#demo-6b {
+    pre {
+        @include border-radius-top(0);
+
+        border-top: 0;
+    }
+}
+
+#history-2 {
+    .ballon-down {
+        left: 200px;
+        top: 100px;
+        &.down2 {
+            left: 600px;
+            top: 100px;
+
+        }
+    }
+    .ballon-up {
+        right: 300px;
+        top: 420px;
+    }
+}
+
+#offline-1 {
+    .ballon-down {
+        left: 200px;
+        top: 100px;
+    }
+    .ballon-up {
+        left: 50px;
+        top: 520px;
+        &.up2 {
+            left: 560px;
+            top: 520px;
+        }
+    }
+}
+
+#websockets-3 {
+    .ballon-down {
+        left: 110px;
+        top: 100px;
+        &.down2 {
+            left: 500px;
+            top: 100px;
+
+        }
+    }
+    .ballon-up {
+        right: 300px;
+        top: 420px;
+    }
+}
+
+#websockets-5 {
+    pre {
+        @include border-radius-bottom(0);
+
+        border-bottom: 0;
+    }
+}
+#websockets-6 {
+    pre {
+        @include border-radius-top(0);
+
+        border-top: 0;
+    }
+}
+#websockets-7 {
+    pre {
+        @include border-radius-bottom(0);
+
+        border-bottom: 0;
+    }
+}
+#websockets-8 {
+    pre {
+        @include border-radius-top(0);
+
+        border-top: 0;
+    }
+}
+
+#conclusions-2 {
+    .ballon-down {
+        left: 200px;
+        top: 100px;
+    }
+    .ballon-up {
+        right: 0px;
+        top: 450px;
+    }
+}
+#conclusions-3 {
+    .ballon-down {
+        right: 100px;
+        top: 100px;
+    }
+    .ballon-up {
+        left: 0;
+        top: 450px;
+    }
+}
+
+#thank-you {
+    h1 {
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    h2 {
+        margin-right: 30px;
+        margin-top: 10px;
+        text-align: right;
+    }
+    h3 {
+        margin-left: 450px;
+        margin-top: 120px;
+    }
+    h4 {
+        margin-left: 450px;
+        margin-top: 10px;
+    }
+    h5 {
+        margin-left: 450px;
+        margin-top: 10px;
+    }
+    img {
+        bottom: 50px;
+        left: 55px;
+        position: absolute;
+        width: 350px;
+    }
+    .logotype {
+        bottom: 120px;
+        left: 490px;
+        position: absolute;
+        width: 200px;
+    }
+}

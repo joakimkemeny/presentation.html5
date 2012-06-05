@@ -1,0 +1,9 @@
+@-webkit-keyframes pulse {
+  0%   { background-color: rgba(228, 77, 38, .1); }
+  50%  { background-color: rgba(228, 77, 38, .3); }
+  100% { background-color: rgba(228, 77, 38, .1); }
+}
+
+input:focus {
+  -webkit-animation: pulse 1.5s infinite ease-in-out;
+}

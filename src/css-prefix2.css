@@ -1,0 +1,15 @@
+.box {
+  background-color: #aaa;
+
+  background-image: -moz-linear-gradient(top, #999, #bbb);
+  background-image: -ms-linear-gradient(top, #999, #bbb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+    from(#999), to(#bbb));
+  background-image: -webkit-linear-gradient(top, #999, #bbb);
+  background-image: -o-linear-gradient(top, #999, #bbb);
+  background-image: linear-gradient(top, #999, #bbb);
+  background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr='#999', endColorstr='#bbb', GradientType=0);
+}

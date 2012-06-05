@@ -1,0 +1,54 @@
+@import "../../../css/libs/mixins";
+
+/*** Variables ************************************************************************************/
+
+$shadowColor: #666;
+
+/*** General styles *******************************************************************************/
+
+h1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#header {
+    @include box-shadow(0, 3px, 5px, $shadowColor);
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+#content {
+    @include box-shadow(0, 3px, 5px, $shadowColor);
+}
+
+/*** Speakers *************************************************************************************/
+
+.speaker {
+    img {
+        @include box-shadow(2px, 2px, 5px, rgba(0, 0, 0, 0.4));
+    }
+}
+
+/*** Forms ****************************************************************************************/
+
+button {
+    &:active {
+        $shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: $shadow;
+        -moz-box-shadow: $shadow;
+        box-shadow: $shadow;
+    }
+}
+
+input {
+    @include box-inset-shadow(1px, 1px, 0, rgba(0, 0, 0, .075));
+}

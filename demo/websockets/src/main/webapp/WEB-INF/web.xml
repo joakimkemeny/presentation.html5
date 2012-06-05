@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <javaee:display-name>WebSocket Demo</javaee:display-name>
+
+    <servlet>
+        <servlet-name>DemoWebSocket</servlet-name>
+        <servlet-class>se.joakimkemeny.websockets.DemoWebSocketServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DemoWebSocket</servlet-name>
+        <url-pattern>/socket/*</url-pattern>
+    </servlet-mapping>
+</web-app>

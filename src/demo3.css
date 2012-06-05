@@ -1,0 +1,10 @@
+nav a {
+  transition: all ease-in-out 0.3s;
+}
+
+.speaker img {
+  transform: rotate(4deg)
+}
+.speaker:nth-child(even) img {
+  transform: rotate(-4deg)
+}

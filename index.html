@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>HTML5 and CSS3 | Let's enhance the web today | Presentation</title>
+
+    <meta name="author" content="Joakim Kemeny">
+    <meta name="viewport" content="width=1024">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/iphone.png" sizes="57x57">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/iphone_2x.png" sizes="114x114">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/ipad.png" sizes="72x72">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/ipad_2x.png" sizes="144x144">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div id="impress">
+
+        <!-- Intro step --------------------------------------------------------------------------->
+
+        <div id="intro" class="step" data-x="0" data-y="0">
+            <h1 class="medium">HTML5 and CSS3</h1>
+            <h2>Let's enhance the web today</h2>
+            <h3>Joakim Kemeny</h3>
+            <h4>@joakimkemeny</h4>
+            <img src="img/html5.png">
+            <img src="img/omegapoint.png" class="logotype">
+        </div>
+
+        <!-- Start step --------------------------------------------------------------------------->
+
+        <div id="start" class="step" data-x="0" data-y="-200">
+            <h1 class="medium">HTML5 and CSS3</h1>
+        </div>
+
+        <!-- Why steps ---------------------------------------------------------------------------->
+
+        <div id="why" class="step center opaque" data-x="0" data-y="1000">
+            <h1 class="large">Why?</h1>
+        </div>
+
+        <div id="why-2" class="step center invisible" data-x="0" data-y="1000">
+            <div class="box ballon ballon-up">To replace Flash!</div>
+            <div class="box ballon ballon-down">To be mobile!</div>
+        </div>
+
+        <div id="why-3" class="step center invisible" data-x="0" data-y="1000">
+            <div class="box ballon ballon-up">To replace HTML 4.01?</div>
+        </div>
+
+        <div id="why-4" class="step center" data-x="1500" data-y="1000">
+            <h1 class="large">Is it ready?</h1>
+        </div>
+
+        <div id="why-5" class="step" data-x="1500" data-y="1050">
+            <h3>...or when will it be ready?</h3>
+        </div>
+
+        <!-- What steps --------------------------------------------------------------------------->
+
+        <div id="what" class="step center" data-x="1500" data-y="2000">
+            <h1 class="large">What?</h1>
+        </div>
+
+        <div id="what-2" class="step" data-x="0" data-y="2000">
+            <h1>New elements</h1>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>section<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>article<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>aside<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>hgroup<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>header<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>footer<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>nav<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>figure<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>figcaption<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>video<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>audio<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>source<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>track<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>embed<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>mark<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>progress<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>meter<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>time<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>ruby<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>rt<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>rp<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>bdi<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>wbr<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>canvas<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>command<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>details<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>summary<span>&gt;</span></div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>&lt;</span>datalist<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>keygen<span>&gt;</span></div>
+                <div class="box bubble"><span>&lt;</span>output<span>&gt;</span></div>
+            </div>
+        </div>
+
+        <div id="what-3" class="step" data-x="-1500" data-y="2000">
+            <h1>New input types</h1>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>type = </span>tel</div>
+                <div class="box bubble"><span>type = </span>search</div>
+                <div class="box bubble"><span>type = </span>url</div>
+                <div class="box bubble"><span>type = </span>email</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>type = </span>datetime</div>
+                <div class="box bubble"><span>type = </span>date</div>
+                <div class="box bubble"><span>type = </span>month</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>type = </span>week</div>
+                <div class="box bubble"><span>type = </span>time</div>
+                <div class="box bubble"><span>type = </span>datetime-local</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble"><span>type = </span>number</div>
+                <div class="box bubble"><span>type = </span>range</div>
+                <div class="box bubble"><span>type = </span>color</div>
+            </div>
+            <p class="links">
+                Read more <a href="http://www.w3.org/TR/html5-diff/">www.w3.org/TR/html5-diff</a>
+            </p>
+        </div>
+
+        <div id="what-4" class="step" data-x="-3000" data-y="2000">
+            <h1>New APIs and technologies</h1>
+            <div class="distribute-horizontal">
+                <div class="box bubble">SVG</div>
+                <div class="box bubble">MathML</div>
+                <div class="box bubble">Canvas</div>
+                <div class="box bubble">WebGL</div>
+                <div class="box bubble">WOFF</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Geolocation</div>
+                <div class="box bubble">Touch Events</div>
+                <div class="box bubble">User Media</div>
+                <div class="box bubble">Vibration</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Indexed Database</div>
+                <div class="box bubble">Offline applications</div>
+                <div class="box bubble">Web Storage</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Web Sockets</div>
+                <div class="box bubble">Server-Sent Events</div>
+                <div class="box bubble">Session History</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Drag & Drop</div>
+                <div class="box bubble">UndoManager</div>
+                <div class="box bubble">Web Workers</div>
+                <div class="box bubble">File</div>
+                <div class="box bubble">…</div>
+            </div>
+            <p class="links">
+                Read more <a href="http://platform.html5.org">platform.html5.org</a>
+            </p>
+        </div>
+
+        <!-- How steps ---------------------------------------------------------------------------->
+
+        <div id="how" class="step center" data-x="-3000" data-y="3000">
+            <h1 class="large">How?</h1>
+        </div>
+
+        <div id="how-1" class="step" data-x="-1500" data-y="3000">
+            <h1>First step</h1>
+            <!--<pre><code data-language="html" data-src="src/semantics-getstarted.html"></code></pre>-->
+            <pre><code><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span> <span class="support attribute">lang</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">en</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">charset</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">utf-8</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>Let's enhance the web today<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">link</span></span> <span class="support attribute">rel</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">stylesheet</span><span class="string quote">"</span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">css/styles.css</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">script</span></span> <span class="support attribute">src</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">js/scripts.min.js</span><span class="string quote">"</span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">script</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+    …
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span></code></pre>
+            <p class="links">
+                Great tool <a href="http://html5boilerplate.com">html5boilerplate.com</a>
+            </p>
+        </div>
+
+        <div id="how-2" class="step" data-x="0" data-y="3000">
+            <h1>Pick your favorites</h1>
+            <div>
+                <div>
+                    <img src="img/html5-semantics.png" id="html5-semantics">
+                    <img src="img/html5-offline.png" id="html5-offline">
+                    <img src="img/html5-deviceaccess.png" id="html5-deviceaccess">
+                    <img src="img/html5-connectivity.png" id="html5-connectivity">
+                </div>
+                <div>
+                    <img src="img/html5-multimedia.png" id="html5-multimedia">
+                    <img src="img/html5-3d.png" id="html5-graphics">
+                    <img src="img/html5-performance.png" id="html5-performance">
+                    <img src="img/html5-css3.png" id="html5-css3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Semantic steps ----------------------------------------------------------------------->
+
+        <div id="semantics" class="step center" data-x="0" data-y="4000">
+            <h1 class="medium">Semantics</h1>
+            <ul class="top-list">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-2" class="step" data-x="1500" data-y="4000">
+            <!--<pre><code data-language="html" data-src="src/semantics-old1.html"></code></pre>-->
+            <pre><code><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">article</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">header</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h2</span></span><span class="support tag close">&gt;</span>Let's enhance the web today<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h2</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+      Posted by Joakim on
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">timestamp</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+        June 5th, 2012 at 7:30PM
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>…<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">footer</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">comments</span><span class="string quote">"</span><span class="support tag close">&gt;</span>25 Comments<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span></code></pre>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-3" class="step invisible" data-x="1500" data-y="4000">
+            <!--<pre><code data-language="html" data-src="src/semantics-new1.html"></code></pre>-->
+            <pre><code>&lt;article&gt;
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">header</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h2</span></span><span class="support tag close">&gt;</span>Let's enhance the web today<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h2</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+      Posted by Joakim on
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">time</span></span> <span class="support attribute">datetime</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">2012-06-05T19:30</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+        June 5th, 2012 at 7:30PM
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">time</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">header</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>…<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name"><span class="entity name tag">footer</span></span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">comments</span><span class="string quote">"</span><span class="support tag close">&gt;</span>25 Comments<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">footer</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">article</span></span><span class="support tag close">&gt;</span></code></pre>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-4" class="step" data-x="3000" data-y="4000">
+            <!--<pre><code data-language="html" data-src="src/semantics-old2.html"></code></pre>-->
+            <pre><code><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">header</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>My Blog<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">div</span></span> <span class="support attribute">class</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">menu</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">/</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Latest Posts<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">archives</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Archives<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">contact</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Contact Me<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">div</span></span><span class="support tag close">&gt;</span></code></pre>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-5" class="step invisible" data-x="3000" data-y="4000">
+            <!--<pre><code data-language="html" data-src="src/semantics-new2.html"></code></pre>-->
+            <pre><code><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">header</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>My Blog<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">nav</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">/</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Latest Posts<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">archives</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Archives<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+      <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">contact</span><span class="string quote">"</span><span class="support tag close">&gt;</span>Contact Me<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+  <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">nav</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">header</span></span><span class="support tag close">&gt;</span></code></pre>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-6" class="step" data-x="4500" data-y="4000">
+            <h1>Use in old browsers</h1>
+            <!--<pre><code data-language="css" data-src="src/semantics-old.css"></code></pre>-->
+            <pre><code><span class="entity name tag">article</span>, <span class="entity name tag">footer</span>, <span class="entity name tag">header</span> {
+  <span class="support css-property">display</span>: <span class="support css-value">block</span>;
+}</code></pre>
+            <p class="links">
+                Great tool
+                <a href="http://necolas.github.com/normalize.css">necolas.github.com/normalize.css</a>
+            </p>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="semantics-7" class="step" data-x="6000" data-y="4000">
+            <h1>Use in bad browsers</h1>
+            <!--<pre><code data-language="javascript" data-src="src/semantics-bad.js"></code></pre>-->
+            <pre><code><span class="support">document</span>.<span class="function call">createElement</span>(<span class="string">"article"</span>);
+<span class="support">document</span>.<span class="function call">createElement</span>(<span class="string">"footer"</span>);
+<span class="support">document</span>.<span class="function call">createElement</span>(<span class="string">"header"</span>);</code></pre>
+            <p class="links">
+                Great tool <a href="http://modernizr.com">modernizr.com</a>
+            </p>
+            <ul class="top-list small">
+                <li class="active">5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <!-- CSS steps ---------------------------------------------------------------------------->
+
+        <div id="css" class="step center" data-x="6000" data-y="5000">
+            <h1 class="medium">CSS3 Styling</h1>
+            <ul class="top-list">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="css-2" class="step" data-x="4500" data-y="5000">
+            <h1>CSS Modules</h1>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Color</div>
+                <div class="box bubble">Namespaces</div>
+                <div class="box bubble">Selectors</div>
+                <div class="box bubble">Media Queries</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Style Attributes</div>
+                <div class="box bubble">Backgrounds and Borders</div>
+                <div class="box bubble">Marquee</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Speech</div>
+                <div class="box bubble">Transforms</div>
+                <div class="box bubble">Transitions</div>
+                <div class="box bubble">Values and Units</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Flexible Box Layout</div>
+                <div class="box bubble">Fonts</div>
+                <div class="box bubble">Text</div>
+                <div class="box bubble">Writing Modes</div>
+            </div>
+            <div class="distribute-horizontal">
+                <div class="box bubble">Device Adaptation</div>
+                <div class="box bubble">Grid Layout</div>
+                <div class="box bubble">Lists</div>
+                <div class="box bubble">Regions</div>
+                <div class="box bubble">…</div>
+            </div>
+
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-start" class="step center" data-x="3000" data-y="5000">
+            <h1 class="medium">Demo</h1>
+        </div>
+
+        <div id="demo" class="step" data-x="1500" data-y="5000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo/index.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="css-3" class="step" data-x="0" data-y="5000">
+            <h1>How browsers handle CSS</h1>
+            <!--<pre><code data-language="css" data-src="src/css-browsers.css"></code></pre>-->
+            <pre><code><span class="entity name class">.box</span> {
+  <span class="support css-property">border</span>: <span class="constant numeric">6</span><span class="keyword unit">px</span> solid <span class="constant hex-color">#bbb</span>;
+  <span class="support css-property">border-radius</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span>;
+  <span class="support css-property">box-shadow</span>: <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">20</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>.<span class="constant numeric">8</span>);
+}</code></pre>
+
+            <div class="demo-label">Safari:</div>
+            <div class="demo-box-safari"></div>
+            <div class="demo-label">IE &lt; 9:</div>
+            <div class="demo-box-ie"></div>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="css-4" class="step" data-x="-1500" data-y="5000">
+            <h1>Welcome to prefix hell!</h1>
+            <!--<pre><code data-language="css" data-src="src/css-prefix1.css"></code></pre>-->
+            <pre><code><span class="entity name class">.box</span> {
+  <span class="support css-property">border</span>: <span class="constant numeric">6</span><span class="keyword unit">px</span> solid <span class="constant hex-color">#bbb</span>;
+
+  <span class="support css-property"><span class="support vendor-prefix">-moz-</span>border-radius</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span>;
+  <span class="support css-property"><span class="support vendor-prefix">-webkit-</span>border-radius</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span>;
+  <span class="support css-property">border-radius</span>: <span class="constant numeric">20</span><span class="keyword unit">px</span>;
+
+  <span class="support css-property"><span class="support vendor-prefix">-moz-</span>box-shadow</span>: <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">20</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>.<span class="constant numeric">8</span>);
+  <span class="support css-property"><span class="support vendor-prefix">-webkit-</span>box-shadow</span>: <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">20</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>.<span class="constant numeric">8</span>);
+  <span class="support css-property">box-shadow</span>: <span class="constant numeric">0</span> <span class="constant numeric">0</span> <span class="constant numeric">20</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>.<span class="constant numeric">8</span>);
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="css-5" class="step" data-x="-3000" data-y="5000">
+            <!--<pre><code data-language="css" data-src="src/css-prefix2.css"></code></pre>-->
+            <pre><code><span class="entity name class">.box</span> {
+  <span class="support css-property">background-color</span>: <span class="constant hex-color">#aaa</span>;
+
+  <span class="support css-property">background-image</span>: <span class="support vendor-prefix">-moz-</span><span class="support css-value">linear-gradient</span>(top, #<span class="constant numeric">999</span>, #bbb);
+  <span class="support css-property">background-image</span>: <span class="support vendor-prefix">-ms-</span><span class="support css-value">linear-gradient</span>(top, #<span class="constant numeric">999</span>, #bbb);
+  <span class="support css-property">background-image</span>: <span class="support vendor-prefix">-webkit-</span><span class="support css-value">gradient</span>(linear, <span class="constant numeric">0</span> <span class="constant numeric">0</span>, <span class="constant numeric">0</span> <span class="constant numeric">100</span><span class="keyword unit">%</span>,
+    from(#<span class="constant numeric">999</span>), <span class="support css-value">to</span>(#bbb));
+  <span class="support css-property">background-image</span>: <span class="support vendor-prefix">-webkit-</span><span class="support css-value">linear-gradient</span>(top, #<span class="constant numeric">999</span>, #bbb);
+  <span class="support css-property">background-image</span>: <span class="support vendor-prefix">-o-</span><span class="support css-value">linear-gradient</span>(top, #<span class="constant numeric">999</span>, #bbb);
+  <span class="support css-property">background-image</span>: <span class="support css-value">linear-gradient</span>(top, #<span class="constant numeric">999</span>, #bbb);
+  <span class="support css-property">background-repeat</span>: <span class="support css-value">repeat-x</span>;
+
+  <span class="support css-property">filter</span>: <span class="support css-value">progid</span>:<span class="support css-value">DXImageTransform</span>.Microsoft.gradient(
+    startColorstr=<span class="string">'#999'</span>, <span class="support css-value">endColorstr</span>=<span class="string">'#bbb'</span>, <span class="support css-value">GradientType</span>=<span class="constant numeric">0</span>);
+}</code></pre>
+            <p class="links">
+                Great tool <a href="http://sass-lang.com">sass-lang.com</a>
+            </p>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="css-6" class="step" data-x="-4500" data-y="5000">
+            <h1>How about Internet Explorer?</h1>
+            <!--<pre><code data-language="css" data-src="src/css-filter.css"></code></pre>-->
+            <pre><code><span class="support css-property">filter</span>: <span class="support css-value">progid</span>:<span class="support css-value">DXImageTransform</span>.Microsoft.Matrix(
+  sizingMethod=<span class="string">'auto expand'</span>,
+  M<span class="constant numeric">11</span>=<span class="constant numeric">0</span>.<span class="constant numeric">9914448613738104</span>, M<span class="constant numeric">12</span>=<span class="constant numeric">0</span>.<span class="constant numeric">13052619222005157</span>,
+  M<span class="constant numeric">21</span>=-<span class="constant numeric">0</span>.<span class="constant numeric">13052619222005157</span>, M<span class="constant numeric">22</span>=<span class="constant numeric">0</span>.<span class="constant numeric">9914448613738104</span>
+);
+
+<span class="support css-property"><span class="support vendor-prefix">-ms-</span>filter</span>: "<span class="support css-property">progid</span>:<span class="support css-value">DXImageTransform</span>.Microsoft.Matrix(
+  sizingMethod=<span class="string">'auto expand'</span>,
+  M<span class="constant numeric">11</span>=<span class="constant numeric">0</span>.<span class="constant numeric">9914448613738104</span>, M<span class="constant numeric">12</span>=<span class="constant numeric">0</span>.<span class="constant numeric">13052619222005157</span>,
+  M<span class="constant numeric">21</span>=-<span class="constant numeric">0</span>.<span class="constant numeric">13052619222005157</span>, M<span class="constant numeric">22</span>=<span class="constant numeric">0</span>.<span class="constant numeric">9914448613738104</span>
+)";</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-1-start" class="step" data-x="-6000" data-y="5000">
+            <h1>Shadows</h1>
+            <!--<pre><code data-language="css" data-src="src/demo1.css"></code></pre>-->
+            <pre><code><span class="entity name tag">h1</span> {
+  <span class="support css-property">text-shadow</span>: <span class="constant numeric">1</span><span class="keyword unit">px</span> <span class="constant numeric">1</span><span class="keyword unit">px</span> <span class="constant numeric">1</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>.<span class="constant numeric">5</span>);
+}
+
+<span class="entity name id">#header</span> {
+  <span class="support css-property">box-shadow</span>:<span class="constant numeric">0</span> <span class="constant numeric">3</span><span class="keyword unit">px</span> <span class="constant numeric">5</span><span class="keyword unit">px</span> <span class="constant hex-color">#666</span>;
+}
+
+<span class="entity name tag">button</span><span class="entity name pseudo">:active</span> {
+  <span class="support css-property">box-shadow</span>: <span class="support css-value">inset</span> <span class="constant numeric">0</span> <span class="constant numeric">2</span><span class="keyword unit">px</span> <span class="constant numeric">4</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, .<span class="constant numeric">15</span>),
+                    <span class="constant numeric">0</span> <span class="constant numeric">1</span><span class="keyword unit">px</span> <span class="constant numeric">2</span><span class="keyword unit">px</span> rgba(<span class="constant numeric">0</span>, <span class="constant numeric">0</span>, <span class="constant numeric">0</span>, .<span class="constant numeric">05</span>);
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-1" class="step" data-x="-7500" data-y="5000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo1/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="demo-2-start" class="step" data-x="-9000" data-y="5000">
+            <h1>Rounded corners and Gradients</h1>
+            <!--<pre><code data-language="css" data-src="src/demo2.css"></code></pre>-->
+            <pre><code><span class="entity name tag">button</span> {
+  <span class="support css-property">border-radius</span>: <span class="constant numeric">4</span><span class="keyword unit">px</span>;
+
+  <span class="support css-property">background-image</span>: <span class="support css-value">linear-gradient</span>(top, #fff, #d<span class="constant numeric">9</span>d<span class="constant numeric">9</span>d<span class="constant numeric">9</span>);
+  <span class="support css-property">background-repeat</span>: <span class="support css-value">repeat-x</span>
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-2" class="step" data-x="-10500" data-y="5000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo2/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="demo-3-start" class="step" data-x="-12000" data-y="5000">
+            <h1>Transforms and Transitions</h1>
+            <!--<pre><code data-language="css" data-src="src/demo3.css"></code></pre>-->
+<pre><code><span class="entity name tag">nav</span> <span class="entity name tag">a</span> {
+  <span class="support css-property">transition</span>: <span class="support css-value">all</span> ease-in-out <span class="constant numeric">0</span>.<span class="constant numeric">3</span><span class="keyword unit">s</span>;
+}
+
+<span class="entity name class">.speaker</span> <span class="entity name tag">img</span> {
+  <span class="support css-property">transform</span>: <span class="support css-value">rotate</span>(<span class="constant numeric">4</span>deg)
+}
+<span class="entity name class">.speaker</span><span class="entity name pseudo">:nth-child</span>(<span class="entity name tag">even</span>) <span class="entity name tag">img</span> {
+  <span class="support css-property">transform</span>: <span class="support css-value">rotate</span>(-<span class="constant numeric">4</span>deg)
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-3" class="step" data-x="-13500" data-y="5000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo3/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="demo-4-start" class="step" data-x="-15000" data-y="5000">
+            <h1>Animations</h1>
+            <!--<pre><code data-language="css" data-src="src/demo4.css"></code></pre>-->
+<pre><code>@-<span class="entity name tag">webkit</span>-<span class="entity name tag">keyframes</span> <span class="entity name tag">pulse</span> {
+  <span class="constant numeric">0</span><span class="keyword unit">%</span>   { <span class="support css-property">background-color</span>: <span class="support css-value">rgba</span>(<span class="constant numeric">228</span>, <span class="constant numeric">77</span>, <span class="constant numeric">38</span>, .<span class="constant numeric">1</span>); }
+  <span class="constant numeric">50</span><span class="keyword unit">%</span>  { <span class="support css-property">background-color</span>: <span class="support css-value">rgba</span>(<span class="constant numeric">228</span>, <span class="constant numeric">77</span>, <span class="constant numeric">38</span>, .<span class="constant numeric">3</span>); }
+  <span class="constant numeric">100</span><span class="keyword unit">%</span> { <span class="support css-property">background-color</span>: <span class="support css-value">rgba</span>(<span class="constant numeric">228</span>, <span class="constant numeric">77</span>, <span class="constant numeric">38</span>, .<span class="constant numeric">1</span>); }
+}
+
+<span class="entity name tag">input</span><span class="entity name pseudo">:focus</span> {
+  <span class="support css-property"><span class="support vendor-prefix">-webkit-</span>animation</span>: <span class="support css-value">pulse</span> <span class="constant numeric">1</span>.<span class="constant numeric">5</span><span class="keyword unit">s</span> infinite ease-in-out;
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li class="active">4</li>
+                <li>3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-4" class="step" data-x="-16500" data-y="5000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo4/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <!-- History steps ------------------------------------------------------------------------>
+
+        <div id="history" class="step center" data-x="-16500" data-y="6000">
+            <h1 class="medium">History</h1>
+            <ul class="top-list">
+                <li>5</li>
+                <li>4</li>
+                <li class="active">3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-4a" class="step" data-x="-15000" data-y="6000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo4/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="demo-5" class="step" data-x="-13500" data-y="6000">
+            <h1>Use Ajax to get content</h1>
+            <!--<pre><code data-language="javascript" data-src="src/demo5.js"></code></pre>-->
+            <pre><code><span class="selector">$</span>(<span class="string">"a"</span>).<span class="function call">click</span>(<span class="storage function">function</span> (e) {
+  e.<span class="function call">preventDefault</span>();
+
+  <span class="keyword">var</span> href <span class="keyword operator">=</span> e.srcElement.href;
+  <span class="selector"> $</span>(<span class="string">".content"</span>).<span class="function call">load</span>(href <span class="keyword operator">+</span> <span class="string">" .content &gt; *"</span>);
+});</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li class="active">3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="demo-6a" class="step" data-x="-12000" data-y="6000">
+            <h1>Add History</h1>
+            <!--<pre><code data-language="javascript" data-src="src/demo6a.js"></code></pre>-->
+<pre><code><span class="selector">$</span>(<span class="string">"a"</span>).<span class="function call">click</span>(<span class="storage function">function</span> (e) {
+  e.<span class="function call">preventDefault</span>();
+
+  <span class="keyword">var</span> href <span class="keyword operator">=</span> e.srcElement.href;
+  <span class="selector"> $</span>(<span class="string">".content"</span>).<span class="function call">load</span>(href <span class="keyword operator">+</span> <span class="string">" .content &gt; *"</span>, <span class="storage function">function</span> () {
+    <span class="keyword">if</span> (history.pushState) {
+      history.<span class="function call">pushState</span>({ href : href}, <span class="constant language">null</span>, href);
+    }
+  });
+});</code></pre>
+        </div>
+
+        <div id="demo-6b" class="step" data-x="-12000" data-y="6460">
+            <!--<pre><code data-language="javascript" data-src="src/demo6b.js"></code></pre>-->
+            <pre><code><span class="selector">$</span>(<span class="support">window</span>).<span class="function call">on</span>(<span class="string">"popstate"</span>, <span class="storage function">function</span> () {
+  <span class="keyword">if</span> (event.state) {
+    <span class="selector"> $</span>(<span class="string">'.content'</span>).<span class="function call">load</span>(event.state.href <span class="keyword operator">+</span> <span class="string">" .content &gt; *"</span>);
+  }
+});
+
+history.<span class="function call">replaceState</span>({href : <span class="support">window</span>.location.href});</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li class="active">3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="history-1" class="step center opaque" data-x="-10500" data-y="6000">
+            <h1 class="large">Benefits</h1>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li class="active">3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="history-2" class="step center invisible" data-x="-10500" data-y="6000">
+            <div class="box ballon ballon-up">Navigation</div>
+            <div class="box ballon ballon-down">Bookmarks</div>
+            <div class="box ballon ballon-down down2">Refresh</div>
+            <p class="links">
+                Great framework <a href="http://backbonejs.org">backbonejs.org</a>
+            </p>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li class="active">3</li>
+                <li>2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <!-- Offline steps ------------------------------------------------------------------------>
+
+        <div id="offline" class="step center" data-x="-10500" data-y="7000">
+            <h1 class="medium">Offline</h1>
+            <ul class="top-list">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li class="active">2</li>
+                <li>1</li>
+            </ul>
+        </div>
+
+        <div id="offline-1" class="step center invisible" data-x="-10500" data-y="7000">
+            <h1 class="medium">Offline</h1>
+            <div class="box ballon ballon-down">Application Cache</div>
+            <div class="box ballon ballon-up">Indexed Database</div>
+            <div class="box ballon ballon-up up2">Local Storage</div>
+        </div>
+
+        <!-- WebSockets steps --------------------------------------------------------------------->
+
+        <div id="websockets" class="step center" data-x="-10500" data-y="8000">
+            <h1 class="medium">WebSockets</h1>
+            <ul class="top-list">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="websockets-1" class="step" data-x="-9000" data-y="8000">
+            <div class="slide">
+                <h1>Example</h1>
+                <p>Let's poll every second (HTTP headers = 500 - 1000 bytes)</p>
+
+                <ul>
+                    <li>1 000 client &rarr; 500 000 bytes/s &rarr; <b>3.8 Mbps</b></li>
+                    <li>10 000 client &rarr; 500 000 bytes/s &rarr; <b>38 Mbps</b></li>
+                    <li>100 000 client &rarr; 500 000 bytes/s &rarr; <b>381 Mbps</b></li>
+                </ul>
+                <p>Let's use WebSockets</p>
+                <ul>
+                    <li>1 000 client &rarr; 2 000 bytes/s &rarr; <b>0.015 Mbps</b></li>
+                    <li>10 000 client &rarr; 20 000 bytes/s &rarr; <b>0.15 Mbps</b></li>
+                    <li>100 000 client &rarr; 200 000 bytes/s &rarr; <b>1.5 Mbps</b></li>
+                </ul>
+            </div>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="websockets-2" class="step center opaque" data-x="-7500" data-y="8000">
+            <h1 class="large">Benefits</h1>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="websockets-3" class="step center invisible" data-x="-7500" data-y="8000">
+            <div class="box ballon ballon-up">2 bytes overhead</div>
+            <div class="box ballon ballon-down">Full duplex</div>
+            <div class="box ballon ballon-down down2">Firewall friendly</div>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="demo-6" class="step" data-x="-6000" data-y="8000">
+            <div class="browser">
+                <div class="toolbar">
+                    <button class="back"><i></i></button>
+                    <button class="forward"><i></i></button>
+                    <button class="reload"><i></i></button>
+                    <input type="text">
+                </div>
+                <iframe src="demo/demo6/speakers.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="websockets-4" class="step" data-x="-4500" data-y="8000">
+            <h1>Server (Jetty)</h1>
+            <!--<pre><code data-language="c" data-src="src/websocket1.java"></code></pre>-->
+            <pre><code><span class="keyword">public</span> <span class="keyword">class</span> DemoWebSocketServlet <span class="keyword">extends</span> WebSocketServlet {
+
+  <span class="keyword">private</span> final Set<span class="keyword operator">&lt;</span>DemoWebSocket<span class="keyword operator">&gt;</span> clients <span class="keyword operator">=</span>
+    <span class="keyword">new</span> CopyOnWriteArraySet<span class="keyword operator">&lt;</span>DemoWebSocket<span class="keyword operator">&gt;</span>();
+
+  <span class="keyword">public</span> WebSocket <span class="entity name function">doWebSocketConnect</span>(
+      HttpServletRequest req, <span class="keyword">String</span> protocol) {
+    <span class="keyword">return</span> new <span class="entity name function">DemoWebSocket</span>(clients);
+  }
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="websockets-5" class="step" data-x="-3000" data-y="8000">
+            <!--<pre><code data-language="c" data-src="src/websocket2.java"></code></pre>-->
+            <pre><code><span class="keyword">public</span> <span class="keyword">class</span> DemoWebSocket implements OnTextMessage {
+
+  <span class="keyword">private</s  pan> Connection connection;
+  <span class="keyword">private</span> Set<span class="keyword operator">&lt;</span>DemoWebSocket<span class="keyword operator">&gt;</span> clients;
+
+  public <span class="entity name function">DemoWebSocket</span>(Set<span class="keyword operator">&lt;</span>DemoWebSocket<span class="keyword operator">&gt;</span> clients) {
+    <span class="keyword">this</span>.clients <span class="keyword operator">=</span> clients;
+  }
+
+  <span class="keyword">public</span> <span class="storage type">void</span> <span class="entity name function">onOpen</span>(Connection connection) {
+    <span class="keyword">this</span>.connection <span class="keyword operator">=</span> connection;
+    clients.<span class="function call">add</span>(<span class="keyword">this</span>);
+  }
+
+  <span class="keyword">public</span> <span class="storage type">void</span> <span class="entity name function">onClose</span>(<span class="storage type">int</span> closeCode, <span class="keyword">String</span> message) {
+    clients.<span class="function call">remove</span>(<span class="keyword">this</span>);
+  }</code></pre>
+        </div>
+
+        <div id="websockets-6" class="step" data-x="-3000" data-y="8630">
+            <!--<pre><code data-language="c" data-src="src/websocket3.java"></code></pre>-->
+<pre><code>  <span class="keyword">public</span> <span class="storage type">void</span> <span class="entity name function">onMessage</span>(<span class="keyword">String</span> message) {
+    <span class="keyword">try</span> {
+      <span class="keyword">if</span> (<span class="string">"list"</span>.<span class="function call">equals</span>(message)) {
+        <span class="keyword">String</span> res <span class="keyword operator">=</span> Registration.<span class="function call">allParticipantsAsJSON</span>();
+        <span class="keyword">this</span>.connection.<span class="function call">sendMessage</span>(res);
+      } <span class="keyword">else</span> {
+        Participant participant <span class="keyword operator">=</span>
+          Registration.<span class="function call">addParticipant</span>(message);
+        <span class="keyword">for</span> (DemoWebSocket client : clients)
+          client.connection.<span class="function call">sendMessage</span>(
+            <span class="string">"["</span> <span class="keyword operator">+</span> participant.<span class="function call">asJSON</span>() <span class="keyword operator">+</span> <span class="string">"]"</span>);
+      }
+    } <span class="keyword">catch</span> (IOException e) { }
+  }
+}</code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <div id="websockets-7" class="step" data-x="-1500" data-y="8000">
+            <h1>JavaScript</h1>
+            <!--<pre><code data-language="javascript" data-src="src/websocket1.js"></code></pre>-->
+            <pre><code><span class="keyword">var</span> webSocket <span class="keyword operator">=</span> (<span class="support">window</span>.WebSocket) ?
+  <span class="keyword">new</span> <span class="function call">WebSocket</span>(<span class="string">"ws://localhost:8080/demo/socket"</span>) :
+  <span class="keyword">new</span> <span class="function call">MozWebSocket</span>(<span class="string">"ws://localhost:8080/demo/socket"</span>);
+
+webSocket.onopen <span class="keyword operator">=</span> <span class="storage function">function</span> () {
+  webSocket.<span class="function call">send</span>(<span class="string">"list"</span>);
+};
+
+webSocket.onmessage <span class="keyword operator">=</span> <span class="storage function">function</span> (e) {
+  <span class="keyword">var</span> p <span class="keyword operator">=</span> JSON.<span class="function call">parse</span>(e.data);
+  <span class="keyword">for</span> (<span class="keyword">var</span> i <span class="keyword operator">=</span> <span class="constant numeric">0</span>; i <span class="keyword operator">&lt;</span> p.<span class="support property">length</span>; i <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">1</span>) {
+    <span class="keyword">var</span> row <span class="keyword operator">=</span> <span class="string">"&lt;tr&gt;&lt;td&gt;"</span> <span class="keyword operator">+</span> p[i].name <span class="keyword operator">+</span>
+              "<span class="string">&lt;td&gt;&lt;td&gt;"</span> <span class="keyword operator">+</span> p[i].time <span class="keyword operator">+</span> <span class="string">&lt;/td&gt;&lt;tr&gt;"</span>;</code></pre>
+        </div>
+        <div id="websockets-8" class="step" data-x="-1500" data-y="8560">
+            <pre><code data-language="javascript" data-src="src/websocket2.js"></code></pre>
+            <ul class="top-list small">
+                <li>5</li>
+                <li>4</li>
+                <li>3</li>
+                <li>2</li>
+                <li class="active">1</li>
+            </ul>
+        </div>
+
+        <!-- Conclusions steps -------------------------------------------------------------------->
+
+        <div id="conclusions" class="step center opaque" data-x="-1500" data-y="7000">
+            <h1 class="large">Conclusions</h1>
+        </div>
+
+        <div id="conclusions-2" class="step center invisible" data-x="-1500" data-y="7000">
+            <div class="box ballon ballon-down">It's ready…</div>
+            <div class="box ballon ballon-up">…and you can do really cool things!</div>
+            <p class="links">
+                Great resource <a href="http://html5please.com">html5please.com</a>
+            </p>
+        </div>
+
+        <div id="conclusions-3" class="step center invisible" data-x="-1500" data-y="7000">
+            <div class="box ballon ballon-down">HTML5 is not difficult…</div>
+            <div class="box ballon ballon-up">…but old browsers complicates life</div>
+            <p class="links">
+                Great resource <a href="http://caniuse.com">caniuse.com</a>
+            </p>
+        </div>
+
+        <!-- Thank you step ----------------------------------------------------------------------->
+
+        <div id="thank-you" class="step invisible" data-x="-1500" data-y="7010" data-scale="0.01"
+             data-rotate="180">
+            <h1 class="medium">HTML5 and CSS3</h1>
+            <h2>Thank you for coming!</h2>
+            <h3>Joakim Kemeny</h3>
+            <h4>@joakimkemeny</h4>
+            <h5>github.com/joakimkemeny</h5>
+            <img src="img/html5.png">
+            <img src="img/omegapoint.png" class="logotype">
+        </div>
+
+        <!-- Overview step ------------------------------------------------------------------------>
+
+        <div id="overview" class="step" data-x="-3000" data-y="5000" data-scale="25"></div>
+
+    </div>
+
+    <script src="js/scripts.min.js"></script>
+
+</body>
+</html>

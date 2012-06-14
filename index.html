@@ -425,7 +425,7 @@
         </div>
 
         <div id="demo-start" class="step center" data-x="3000" data-y="5000">
-            <h1 class="medium">Demo</h1>
+            <h1 class="large">Demo</h1>
         </div>
 
         <div id="demo" class="step" data-x="1500" data-y="5000">
@@ -720,7 +720,7 @@
   e.<span class="function call">preventDefault</span>();
 
   <span class="keyword">var</span> href <span class="keyword operator">=</span> e.srcElement.href;
-  <span class="selector"> $</span>(<span class="string">".content"</span>).<span class="function call">load</span>(href <span class="keyword operator">+</span> <span class="string">" .content &gt; *"</span>, <span class="storage function">function</span> () {
+  <span class="selector">$</span>(<span class="string">".content"</span>).<span class="function call">load</span>(href <span class="keyword operator">+</span> <span class="string">" .content &gt; *"</span>, <span class="storage function">function</span> () {
     <span class="keyword">if</span> (history.pushState) {
       history.<span class="function call">pushState</span>({ href : href}, <span class="constant language">null</span>, href);
     }

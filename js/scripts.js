@@ -21,8 +21,29 @@ Html5.Today = (function ($) {
     "use strict";
     var Presentation = {};
 
-    Presentation.loadSrc = function () {
-        $("code[data-src]").each(function (index, element) {
+    Presentation.loadDemo = function (step) {
+        if (step.data("demo-loaded")) {
+            return;
+        }
+
+        var browser = step.find(".browser");
+        var addressBar = browser.find(".address div");
+        browser.append("<iframe src='" + addressBar.text() + "' frameborder='0'></iframe>");
+
+        var iframe = browser.find("iframe");
+        iframe.load(function () {
+            addressBar.text(this.src);
+        });
+
+        step.data("demo-loaded", true);
+    };
+
+    Presentation.loadSrc = function (step) {
+        if (step.data("src-loaded")) {
+            return;
+        }
+
+        $("code[data-src]", step).each(function (index, element) {
             var $element = $(element)
             var srcUrl = $element.data("src");
             var srcLang = $element.data("language");
@@ -36,9 +57,11 @@ Html5.Today = (function ($) {
                 }
             }, "text");
         });
+
+        step.data("src-loaded", true);
     };
 
-
+    /*
     Presentation.startBrowsers = function () {
         $("iframe").load(function (e) {
             var addressBar = $(this).parent().find("input");
@@ -55,6 +78,7 @@ Html5.Today = (function ($) {
             });
         });
     };
+    */
 
     Presentation.activateKeyboard = function () {
         $(document).keypress(function (e) {
@@ -131,7 +155,12 @@ Html5.Today = (function ($) {
 }($));
 
 $(function () {
+    $(".step").on("impress:stepenter", function () {
+        Html5.Today.loadSrc($(this));
+        Html5.Today.loadDemo($(this));
+    });
+
     Html5.Today.activateKeyboard();
-    Html5.Today.loadSrc();
-    Html5.Today.startBrowsers();
+    //Html5.Today.loadSrc();
+    //Html5.Today.startBrowsers();
 });

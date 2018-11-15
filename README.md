@@ -1,4 +1,4 @@
-### This repository is depreacted and archived
+### _This repository is deprecated and archived_
 
 ---
 
